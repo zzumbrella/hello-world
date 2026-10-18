@@ -285,6 +285,19 @@ def render_without_split_sides(doc, wrap, rounds=8):
                     break
 
 
+def cff_fonts(pdf_path):
+    """Names of fonts embedded as CFF (FontFile3). MuPDF-based viewers drop their Chinese characters."""
+    from pypdf import PdfReader
+    bad = set()
+    for page in PdfReader(pdf_path).pages:
+        for font in page["/Resources"].get_object().get("/Font", {}).values():
+            for desc in font.get_object().get("/DescendantFonts", []):
+                fd = desc.get_object().get("/FontDescriptor", {})
+                if "/FontFile3" in fd.get_object():
+                    bad.add(str(fd.get_object()["/FontName"]))
+    return sorted(bad)
+
+
 def main():
     parts, toc_entries, part_no = [], [], 0
     for kind, ref, *note in MANIFEST:
@@ -329,6 +342,9 @@ def main():
     (OUT / "book.html").write_text(page)
     document.write_pdf(OUT / "读懂皇艺-样书.pdf")
     print(f"PDF written: {OUT / '读懂皇艺-样书.pdf'} ({len(document.pages)} pages)")
+    bad = cff_fonts(OUT / "读懂皇艺-样书.pdf")
+    if bad:
+        print("warning: fonts embedded as CFF, Chinese will be missing in MuPDF-based viewers; run scripts/setup_fonts.sh:", bad)
 
 
 if __name__ == "__main__":

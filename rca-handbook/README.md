@@ -42,11 +42,11 @@
 
 ```bash
 python3 -m venv ~/.venvs/rca && ~/.venvs/rca/bin/pip install -r requirements.txt
-scripts/setup_fonts.sh                      # 思源宋体/黑体（Noto CJK SC）和拉丁字体
+scripts/setup_fonts.sh                      # 思源宋体/黑体（Noto CJK SC，转成 TrueType）和拉丁字体
 ~/.venvs/rca/bin/python -I scripts/build.py # 输出 output/读懂皇艺-样书.pdf
 ```
 
-完整生成大约需要一分钟。如果有旁注卡片被分在两页，`build.py` 会自动把它移到下一页，再重新排版。
+完整生成大约需要一分钟。中文字体要先转成 TrueType 格式（`setup_fonts.sh` 会自动处理）。否则在 MuPDF 内核的阅读器里（很多手机 App 都用它）中文会显示不出来。如果有旁注卡片被分在两页，`build.py` 会自动把它移到下一页，再重新排版。
 
 ## 更新官网信息
 
