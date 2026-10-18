@@ -1,0 +1,5 @@
+weasyprint==70.0
+qrcode==8.2
+pillow==13.0.0
+beautifulsoup4==4.15.0
+pypdf==6.21.1

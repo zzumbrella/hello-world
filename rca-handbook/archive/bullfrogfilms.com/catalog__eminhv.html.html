@@ -1,0 +1,1111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+
+<html>
+
+<head>
+
+	<title>An Ecology of Mind (Home Video Version) | Bullfrog Films: 1-800-543-3764: Environmental DVDs and
+
+Educational DVDs</title>
+
+<STYLE><!--A{text-decoration:none}--></STYLE>
+
+<link href="../css1.css" rel="stylesheet" type="text/css">
+
+
+
+<META NAME="KEYWORDS" CONTENT="Gregory Bateson, epistemology, anthropology, naturalist, systems theory, double bind theory, the pattern that connects, Margaret Mead, Bali, New Guinea, photographs psychiatry, information science, cybernetics, urban planning, biology, ecology">
+
+<META NAME="description" CONTENT="A daughter's loving film portrait of one of the 20th century's most influential thinkers, Gregory Bateson, anthropologist, systems theorist and ecologist. From Bullfrog Films, the leading source of DVDs & videos about the environment, ecology, sustainable development, globalization, indigenous peoples, cultural diversity, and performing arts, music and dance.">
+
+
+
+<!-- Deluxe Menu -->
+
+<noscript><a href="http://deluxe-menu.com">Javascript Menu by Deluxe-Menu.com</a></noscript>
+
+
+
+<script type="text/javascript">var dmWorkPath = "../menudir/";</script>
+
+<script type="text/javascript" src="../menudir/dmenu.js"></script>
+
+<!-- (c) 2009, http://deluxe-menu.com -->
+
+
+
+
+
+<script language="JavaScript1.2" type="text/javascript">
+
+<!--
+
+
+
+// Adjust font size code
+
+
+
+var min=8;
+
+var max=18;
+
+function increaseFontSize() {
+
+   var p = document.getElementsByTagName('p');
+
+   for(i=0;i<p.length;i++) {
+
+      if(p[i].style.fontSize) {
+
+         var s = parseInt(p[i].style.fontSize.replace("px",""));
+
+      } else {
+
+         var s = 13;
+
+      }
+
+      if(s!=max) {
+
+         s += 1;
+
+      }
+
+      p[i].style.fontSize = s+"px"
+
+   }
+
+}
+
+function decreaseFontSize() {
+
+   var p = document.getElementsByTagName('p');
+
+   for(i=0;i<p.length;i++) {
+
+      if(p[i].style.fontSize) {
+
+         var s = parseInt(p[i].style.fontSize.replace("px",""));
+
+      } else {
+
+         var s = 13;
+
+      }
+
+      if(s!=min) {
+
+         s -= 1;
+
+      }
+
+      p[i].style.fontSize = s+"px"
+
+   }
+
+}
+
+
+
+
+
+// Subject select code
+
+
+
+function SubjectSelect(cHRef)
+
+{
+
+		if (cHRef.value == "" || cHRef.value == "DONOTHING")
+
+		{
+
+			return false;
+
+		}
+
+		else
+
+		{
+
+			window.location = cHRef.value;
+
+			return true;
+
+		}
+
+}
+
+
+
+//begin prevent downloading images
+
+
+
+var message="All photographs are protected by copyright\nFor permission to use, and high\nresolution press stills,\nplease contact Bullfrog Films.";
+
+
+
+
+
+// Put message above
+
+
+
+var bV  = parseInt(navigator.appVersion)
+
+var bNS = navigator.appName=="Netscape"
+
+var bIE = navigator.appName=="Microsoft Internet Explorer"
+
+
+
+function noRightClick(e) {
+
+	if (bIE){
+
+		if (document.all) {
+
+			if (event.button >1 && event.srcElement.src) {
+
+				if (event.srcElement.src.indexOf(".jpg")>-1 || event.srcElement.src.indexOf(".gif")>-1)
+
+					{
+
+						alert (message);
+
+						return false;
+
+					}
+
+			}
+
+		}
+
+	}
+
+	if (bNS)
+
+	{
+
+		if (e.which > 1)
+
+		{
+
+			if (e.target == "[object HTMLImageElement]")
+
+			{
+
+				alert (message);
+
+				return false;
+
+			}
+
+		}
+
+	}
+
+}
+
+
+
+//if (document.layers) window.captureEvents(Event.MOUSEDOWN);
+
+//if (bNS && bV<5) window.onmousedown = noRightClick;
+
+//document.onmousedown=noRightClick;
+
+//end prevent downloading images
+
+
+
+//-->
+
+</script>
+
+<script language="JavaScript1.2">
+
+
+
+var maxW,maxH,fromX,fromY,toX,toY,adjX,adjY,zBox,zStep=0,zLink,zNew;
+
+
+
+function zoomBox(evt,zlink,maxw,maxh,tox,toy) {
+
+if (arguments.length > 2) zNew=1;
+
+scrollH=(window.pageYOffset!=null)?window.pageYOffset:document.body.scrollTop;
+
+maxW=maxw?maxw:window.innerWidth?innerWidth:document.body.clientWidth;
+
+maxH=maxh?maxh:window.innerHeight?innerHeight:document.body.clientHeight;
+
+toX=tox?tox:0;
+
+toY=(toy?toy:0)+scrollH;
+
+fromX=evt.pageX?evt.pageX:evt.clientX;
+
+fromY=(evt.pageY?evt.pageY:evt.clientY)+(document.all?scrollH:0);
+
+adjX=toX+evt.screenX-fromX;
+
+adjY=toY+evt.screenY-fromY;
+
+if (document.createElement && document.body.appendChild && !zBox) {
+
+	zBox=document.createElement("div");
+
+	zBox.style.position="absolute";
+
+	document.body.appendChild(zBox);
+
+} else if (document.all && !zBox) {
+
+	document.all[document.all.length-1].outerHTML+='<div id="zBoxDiv" style="position:absolute"></div>';
+
+	zBox=document.all.zBoxDiv;
+
+} else if (document.layers && !zBox) {
+
+	zBox=new Layer(maxW);
+
+	zBox.style=zBox;
+
+	}
+
+zLink=zlink;
+
+doZoom();
+
+}
+
+
+
+function doZoom() {
+
+zStep+=1;
+
+zPct=(10-zStep)/10
+
+if (document.layers) {
+
+	zBox.moveTo(toX+zPct*(fromX-toX),toY+zPct*(fromY-toY));
+
+	zBox.document.open();
+
+	zBox.document.write("<table width='"+maxW*(1-zPct)+"' height="+maxH*(1-zPct)+" border=2 cellspacing=0><tr><td></td></tr></table>");
+
+	zBox.document.close();
+
+	} else {
+
+	zBox.style.border="2px solid #999999";
+
+	zBox.style.left=toX+zPct*(fromX-toX);
+
+	zBox.style.top=toY+zPct*(fromY-toY);
+
+	zBox.style.width=maxW*(1-zPct);
+
+	zBox.style.height=maxH*(1-zPct);
+
+	}
+
+zBox.style.visibility="visible";
+
+if (zStep < 10) setTimeout("doZoom("+fromX+","+fromY+","+toX+","+toY+")",30);
+
+else {
+
+	zBox.style.visibility='hidden';
+
+	zStep=0;
+
+	if (zLink && !zNew) location.href=zLink.href;
+
+	else if (zLink && zNew) {
+
+		var w=window.open(zLink.href,'','width='+maxW+',height='+maxH+',left='+adjX+',top='+adjY+',scrollbars=0,resizable');
+
+		zNew=null;
+
+		}
+
+	}
+
+}
+
+
+
+function resizeIframe(height)
+
+{
+
+	document.getElementById('ds2frame').height = parseInt(height);
+
+}
+
+
+
+//-->
+
+</script>
+
+</head>
+
+
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" rightmargin="0" bottommargin="0" bgcolor="#195343" background="../graphics/stripe2.gif">
+
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="924" bgcolor="000000"><tr><td>
+
+<table cellpadding="0" cellspacing="0" border="0" width="920" height="100"  align="center" bgcolor="D6D6D6"><tr><td height="100" width="296" valign="top" ><img src="../indent.gif" width=15 height=17 border=0><br><img src="../indent.gif" width=16 height=10 border=0><a href="../index.html"><img src="../graphics/bullfrog_films.gif" width="278" height="76" border="0" alt="Bullfrog Films"></a></td><td width="40"></td><td valign="top" width="131"><img src="../indent.gif" width=15 height=16 border=0><br><img src="../indent.gif" width=15 height=4 border=0><br><img src="../graphics/phone2.gif" width="155" height="63" border="0" alt="610-779-8226; 800-543-3764; P.O. Box 149 Oley, PA 19547"></td>
+
+
+
+<td valign="top" align="right"><table cellpadding="0" cellspacing="0" border="0"><tr><td height="10"></td></tr>
+
+
+
+<tr><td valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td valign="top"><a href="../email.html"><img src="../graphics/emaillogo.gif" width="77" height="15" border="0" alt="Email List"></a><img src="indent.gif" width=20 height=10 border=0><a href="../rss.html"><img src="../graphics/rsslogo.gif" width="66" height="16" border="0" alt="Rss Info"></a><img src="indent.gif" width=15 height=10 border=0></td><td><img src="indent.gif" width=15 height=2 border=0><br><!-- addthis button - destinations-->
+
+<script type='text/javascript'>
+
+var addthis_options = 'email, favorites, print, facebook, twitter, more';
+
+</script>
+
+
+
+<!-- addthis button - to load faster-->
+
+<script type="text/javascript">
+
+  var addthis_disable_flash = true;
+
+</script>
+
+
+
+<!-- AddThis Button BEGIN -->
+
+<a href="http://www.addthis.com/bookmark.php?v=250&pub=bullfrog" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="../graphics/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=bullfrog"></script>
+
+<!-- AddThis Button END -->
+
+
+
+</td><td width="15"></td></tr></table><img src="indent.gif" width=20 height=10 border=0></td><td valign="top"><FORM ACTION="http://www.cartserver.com/sc/cart.cgi" METHOD="get"><INPUT TYPE="HIDDEN" VALUE="a-5102" NAME="item"><input type="image" name="view" src="../graphics/cartlogo.gif" width="44" height="16" border="0"></FORM></td><td width="8"></td></tr></table></td></tr>
+
+<tr><td height="5"></td></tr>
+
+<tr><td align="right" ><form method="get" action="http://search.atomz.com/search/"><input
+
+ size="39" name="sp-q" type="text">       <img height="1" src="indent.gif" width="5"><input type="submit"
+
+ value="Search"><input type="hidden" name="sp-a"
+
+ value="0002149e-sp00000000">&nbsp;&nbsp;&nbsp;<br><img src="indent.gif" width=15 height=4 border=0><br><span class="ar10"><a href="../searchtips.html" onclick="zoomBox(event,this,630,590,210,10);return false">> Search Tips</a></span>&nbsp;&nbsp;&nbsp;&nbsp;<br><img src="indent.gif" width=15 height=3 border=0></td></tr></form>
+
+
+
+</table></td></tr>
+
+
+
+<tr><td width="920" height="23" background="../images/vista3/btn_navy.gif" colspan="8"><script type="text/javascript" src="../menudir/datasub.js"></script></td></tr></table></td></tr></table>
+
+
+
+<!-- START BODY -->
+
+
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="924" bgcolor="000000"><tr><td><table cellpadding="0" cellspacing="0" border="0" height="100%" width="920" bgcolor="ffffff" align="center"><tr><td height="100%" width="100%" valign="top">
+
+
+
+<img src="../indent.gif" width=15 height=12 border=0>
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" height="100%"><tr><td width="180" height="100%" align="center" valign="top">
+
+
+
+<table cellpadding="0" cellspacing="0" border="0"><tr><td valign="top"><img src="../graphics/bgtop.gif" width="161" height="13" border="0"></td></tr>
+
+
+
+<tr><td background="../graphics/bgside.gif"  width="161"><table cellpadding="0" cellspacing="0" border="0" ><tr><td width="10"></td><td valign="top"><img src="../graphics/bullfrog_small.gif" width="135" height="36" border="0" alt="Bullfrog Films"><br><img src="../indent.gif" width=15 height=2 border=0><br>
+
+
+
+<!-- SIDEBAR CONTENT --><span class="ar12" >is a leading source of educational DVDs &
+
+videos, with a collection of over 700 titles in
+
+these main subject areas:<br><img src="indent.gif" width=15 height=6 border=0><br>
+
+
+
+&nbsp;&nbsp;<a href="../subjects/environment.html">Environment</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/globalization.html">Globalization</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/sustainability.html">Sustainability</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/climatechngeglobalwarming.html">Climate Change</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/socialjustice.html">Social Justice</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/developingworld.html">Developing World</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/indigenouspeoples.html">Indigenous Peoples</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/earthscience.html">Earth Science</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/lifescience.html">Life Science</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/politicalscience.html">Political Science</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/performingarts.html">Performing Arts</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/womensstudies.html">Women’s Studies</a><br>
+
+&nbsp;&nbsp;<a href="../subjects/childrensfilms.html">Children’s Films</a>
+
+<br>&nbsp;. . . . . . . . . . . . . . . . . . . . .<br><img src="indent.gif" width=15 height=6 border=0><br>
+
+
+
+
+
+<b>QUICK LINKS</b><br>
+
+&nbsp;&nbsp;<a href="../newsletters/current_newsletter_online.html" target="_blank">Newsletter</a><br>
+
+&nbsp;&nbsp;<a href="../faq.html">FAQ</a><br>
+
+&nbsp;&nbsp;<a href="http://www.facebook.com/bullfrogfilms" target="_blank">Facebook</a><br>
+
+&nbsp;&nbsp;<a href="http://www.youtube.com/bullfrogfilms" target="_blank">YouTube</a><br>
+
+&nbsp;&nbsp;<a href="http://www.twitter.com/bullfrogfilms" target="_blank">Twitter</a><br>
+
+&nbsp;. . . . . . . . . . . . . . .  . .. . . .<br><img src="../indent.gif" width=15 height=6 border=0><br>
+
+<b>ORDER ONLINE</b><br>
+
+Our site enables you to order securely online
+
+with a credit card or purchase order, or you
+
+can use our <a href="http://www.bullfrogfilms.com/orderform.pdf" target="_blank"><strong>printable order form</strong></a> for faxing or
+
+mailing.
+
+<br>&nbsp;. . . . . . . . . . . . . . . . . . . . .<br><img src="../indent.gif" width=15 height=6 border=0><br>
+
+&nbsp;&nbsp;<a href="../email.html"><img src="../graphics/emaillogo.gif" width="77" height="15" border="0" alt="Email
+
+
+
+List"></a><br><img src="../indent.gif" width=15 height=6 border=0><br>
+
+Receive occasional notice of our new releases
+
+and special offers. Your address won’t be
+
+traded or sold.<br>
+
+
+
+</td>
+
+<td width="10"><img src="../indent.gif" width=5 height=1050 border=0><!-- SIDEBAR MINIMUM LENGTH--></td>
+
+</tr></table>
+
+
+
+</td></tr>
+
+<tr><td><img src="../graphics/bgbottom.gif" width="161" height="13" border="0"><br><br></td></tr>
+
+
+
+</table></td>
+
+<td width="389" height="800" valign="top">
+
+<!-- END SIDEBAR -->
+
+
+
+<!-- CENTER COLUNM CONTENT -->
+
+<table cellpadding="0" cellspacing="0" border="0"><tr><td width="4"></td><td valign="top"><img src="../indent.gif" width=15 height=5 border=0><br>
+
+
+
+<!-- IF SERIES -->
+
+
+
+<!-- END IF SERIES -->
+
+
+
+<!-- title -->
+
+<span class="filmtitle"><b>An Ecology of Mind (Home Video Version)</b><br></span>
+
+<!-- subtitle -->
+
+<span class="filmsubtitle">For Personal Use Only</span><br>
+
+<img src="../indent.gif" width=15 height=5 border=0><br>
+
+
+
+<!-- ONE LINE-->
+
+<span class="ar14">A daughter's loving film portrait of one of the 20th century's most influential thinkers, Gregory Bateson, anthropologist, systems theorist and ecologist.<br><img src="../indent.gif" width=15 height=2 border=0><br><img src="../graphics/dotted.gif" width="358" height="9" border="0" alt=""></span>
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" class="ar11">
+
+<tr><td><img src="../indent.gif" width=15 height=5 border=0><br>
+
+<!-- printer friendly link -->
+
+<a href="../print/eminhv.html" _target="_blank"><img src="../graphics/printerfriendly.gif" align="right" alt="A printer-friendly version of this page" border="0"></a>
+
+
+
+<!--LENGTH-->
+
+60 minutes<br>
+
+
+
+<a href="../sdh.html" onclick="zoomBox(event,this,370,160,210,10);return false">SDH Captioned>></a><br><br>
+
+
+
+
+
+<!-- director -->
+
+Directed by Nora Bateson<BR>
+
+
+
+
+
+<!--PRODUCER-->
+
+
+
+
+
+<!--OTHER CREDITS-->
+
+Co-Producer & Editor: David Sieburg<BR>Artwork & Animations: Carl Prescott<BR>Scriptwriter & Narrator: Nora Bateson<BR>  
+
+
+
+<!-- </span -->
+
+<img src="../indent.gif" width=15 height=10 border=0><br><img src="../graphics/dotted.gif" width="358" height="9" border="0" alt=""><br><br></td>
+
+<!-- print friendly link -->
+
+</tr></table>
+
+<!-- end of length/credits section / table -->
+
+
+
+<span class="ar12">
+
+
+
+<!-- STILL AND PULL-QUOTE -->
+
+<table  cellspacing="0" border="0" align="left" width="220">
+
+<tr><td align="center">
+
+
+
+<!--photo-->
+
+<img src="../photos/emindimage.jpg" WIDTH=200 HEIGHT=150 border=0 alt=""><br><br>
+
+
+
+<!--PULL QUOTE-->
+
+<span class="ar12"><i><b>"A brilliant film about a brilliant thinker" Tyler Volk, Professor of Biology and Environmental Studies, New York University</b></i></span>
+
+
+
+</td><td width="12"></td></tr><tr><td colspan="2" height="9"></td></tr></table>
+
+<!-- END STILL AND PULL-QUOTE -->
+
+
+
+<!-- web description -->
+
+AN ECOLOGY OF MIND is a portrait of Gregory Bateson, celebrated anthropologist, philosopher, author, naturalist, and systems theorist. His story is lovingly told by his youngest daughter, Nora, with footage from Gregory's own films shot in the 1930s with his wife Margaret Mead in Bali and New Guinea, along with photographs, filmed lectures, and interviews.</P>
+<P>Gregory Bateson was a man who studied the interrelationships of the complex systems we live in with scientific rigor and enormous integrity. His theories, such as "the double bind" and "the pattern which connects", continue to impact the fields of anthropology, psychiatry, information science, cybernetics, urban planning, biology, and ecology, challenging people to think in new ways.</P>
+<P>Through this film, Nora Bateson sets out to show that his ideas are not just fodder for academic theory, but can help instruct a way of life. She presents his thinking using a richly personal perspective, focusing on the stories Bateson used to present his ideas and how the beauty of life itself provided the framework of his life's pursuits.</P>
+<P>Hoping to inspire its audience to see their lives within a larger system, glistening with symmetry, play, and metaphor, AN ECOLOGY OF MIND is an invitation to ask the kinds of questions that could help thread the world back together from the inside.
+
+
+
+
+
+<!-- </span> -->
+
+
+
+<br><br><img src="../graphics/dotted.gif" width="358" height="9" border="0" alt=""><br><br>
+
+
+
+<!--GRADELEVEL-->
+
+<span class="ar11">Grade Level: 9 - 12, College, Adults</span><BR>
+
+
+
+<!--RELEASE DATE / COPYRIGHT DATE-->
+
+<span class="ar11">
+
+US Release Date: 2011 &nbsp;&nbsp;&nbsp;
+
+Copyright Date: 2010 <br></span>
+
+
+
+
+
+<!--ISBN-->
+
+<span class="ar11">
+
+DVD ISBN: 1-59458-905-4
+
+
+
+
+
+<br><br>
+
+
+
+<img src="../graphics/dotted.gif" width="358" height="9" border="0" alt=""><br><br>
+
+
+
+<!--REVIEWS-->
+
+<table cellpadding="0" cellspacing="0" border="0" class="ar12"><tr><td><span class="ar16"><b>Reviews</b></span><br>"Students of biology, science, science history, or organizational theory will delight in discovering this influential thinker and <i>An Ecology of Mind</i> is a great introduction...I am recommending it as a 'must-see' for all community college, college and graduate school science, science education and science history students, as well as scientists and educators who are interested in a very ancient and completely modern problem: understanding the behaviors of complex systems." <div align="right"><span class="ar11"><b>Roberta Batorsky, Middlesex County College and Rowan University, American Biology Teacher Magazine</b></span></div><BR>
+"Edwin Land said that people who seem to have had a new idea have often just stopped having an old idea. Gregory Bateson taught us how to stop having the most fundamental old ideas--the static, separating, reductionist fictions that disintegrate an integrated world. Nora Bateson's beautiful portrait of her father's key insights is a stunningly effective antidote for a new generation that now needs his wisdom more than ever." <div align="right"><span class="ar11"><b>Amory B. Lovins, Chairman and Chief Scientist, Rocky Mountain Institute, Author, <i>Let the Mountains Talk, Let the Rivers Run: A Call to Save the Earth</i> </b></span></div><BR>
+"A brilliant film about a brilliant thinker...Bateson's ideas are not only still relevant today, they have become even more so as the global world faces challenges of how to bring systems thinking to bear on solutions...I was a student of Bateson's in the late 1970s while he was a scholar in residence at the Lindisfarne Foundation and was finishing his seminal book, <i>Mind and Nature</i>. The experience was extraordinary. This film is the only one I know of that explores the full range of thought and humanity of Gregory Bateson, a giant in the world of systems thinking. I think <i>An Ecology of Mind</i> would be excellent in small classroom or seminar situations in which its showing could be followed by free discussion, because the film works best in generating ideas." <div align="right"><span class="ar11"><b>Tyler Volk, Professor of Biology and Environmental Studies, New York University, Author, <i>Metapatterns Across Space, Time, and Mind</i></b></span></div><BR>
+"Combining rare footage from Bateson's lectures and interviews with a veritable who's who of thinkers influenced by his thought, this is an intimate and accessible portrait of one of the most original and creative interdisciplinary thinkers of the 20th century. From ecology to information systems, Bateson shows how the central question is not 'What is it made of?' but rather 'What is its pattern?'. To borrow a famous remark about James Joyce, we are still learning to be Gregory Bateson's contemporaries. Let's hope we are fast learners." <div align="right"><span class="ar11"><b>Cary Wolfe, Professor of English, Rice University, Author, <i>Critical Environments: Postmodern Theory and the Pragmatics of the 'Outside,'</i> and <i>What Is Posthumanism?</i></b></span></div><BR>
+"<i>An Ecology of Mind</i> is a tender and poetic portrayal not only of one of the most provocative thinkers of the last century but also of a vivid relationship between a daughter and father. It's an introduction to Gregory Bateson's wisest thoughts, a product of a lifetime of innovative research, centering on the issue of how we (humans) think and learn and do research. I imagine it being shown in a classroom...followed by searching discussions." <div align="right"><span class="ar11"><b>Hildred Geertz, Professor Emeritus, Department of Anthropology, Princeton University, Author, <i>Images of Power: Balinese Paintings made for Gregory Bateson and Margaret Mead</i></b></span></div><BR>
+"A very attractive, well made film which will arouse interest in the work of Gregory Bateson. Students who have not heard of Bateson's work will find the film a helpful introduction to some of his basic ideas. People with a holistic perspective who have struggled with the object-oriented categories of current academic fields will find support for their views and encouragement not to succumb to the perceptual biases of the majority. The general public will find an Eastern style of thought articulated by a Western scientist. People concerned about the impacts of human beings on the environment will find both an analytic and spiritual adviser...<i>An Ecology of Mind</i> is a loving tribute to a revered father and teacher." <div align="right"><span class="ar11"><b>Stuart Umpleby, Professor, Department of Management, Director, Research Program in Social and Organizational Learning, The George Washington University, Associate Editor, Journal of Cybernetics and Systems</b></span></div><BR>
+"Gregory Bateson revolutionized our understanding of the dynamic relationships in (and between) our human consciousness, our communities and societies, and our ecological systems. His work still challenges and informs us as we create new pathways toward health and resilience in our lives, and in our world. <i>An Ecology of Mind</i> is the first documentary film to explore the life and innovative ideas of this essential thinker. Through this deeply thought-provoking film, we follow Bateson on his remarkable journey toward insight. We discover how his own life experience led him to comprehend the patterns in our reality. Bateson's work remains indispensible as we come to terms with our responsibilities to future generations and to the larger community of life." <div align="right"><span class="ar11"><b>Dr. Curt Meine, Director,Conservation Biology and History, Center for Humans and Nature, Author, <i>Correction Lines: Essays on Land, Leopold, and Conservation</i></b></span></div><BR>
+"This documentary kindles the spirit of Gregory Bateson, and guides you on two fascinating journeys: One of a daughter's effort to understand her father who died before he could tell her everything she yearned to know, and the other through the ideas that Gregory Bateson developed for us to understand ourselves in the larger ecology to which we contribute. Gregory was an anthropologist, naturalist, cybernetician, and philosopher who never returned to where he came from, restlessly searching to expand the boundaries of our thinking and acting in a world in which everything is connected to everything else. The documentary continues the conversation he started among friends and acquaintances whose lives he touched." <div align="right"><span class="ar11"><b>Klaus Krippendorff, Professor for Cybernetics, Language and Culture, University of Pennsylvania, Author, <i>On Communicating: Otherness, Meaning, and Information</i></b></span></div><BR>
+"Nora Bateson combines imaginative graphics with fascinating documentary footage and illuminating interviews to present her father's intellectual legacy against the backdrop of his relationship with his youngest child, the filmmaker herself. This unique documentary will be an invaluable resource to the many who have drawn on Gregory Bateson's ideas--myself included--and to those for whom this will be an enlightening introduction." <div align="right"><span class="ar11"><b>Deborah Tannen, Professor of Linguistics, Georgetown University, Author, <i>You Just Don't Understand</i></b></span></div><BR><BR></td></tr></table>
+
+
+
+
+
+</td><td width="9"></td></tr></table>
+
+
+
+
+
+</td>
+
+
+
+<td width="1"   ><table cellpadding="0" cellspacing="0" border="0" bgcolor="000000" height="99%" ><tr><td height="95%" width="1"></td></tr></table>
+
+
+
+<!-- BLACK DIVIDER LINE --></td>
+
+
+
+<td width="13"></td>
+
+
+
+<td width="326" valign="top">
+
+
+
+<!-- PRICE BOX -->
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" height="117" width="326" background="../graphics/priceboxbg2.gif"><tr><td   valign="top" height="117" width="326"><img src="../indent.gif" width=15 height=6 border=0><br>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="300" align="center">
+
+
+
+<tr><td colspan="8">
+
+
+
+<table cellpadding="0" cellspacing="0" border="0"  align="center" class="ar10a"><tr><td colspan="8" height="4"></td></tr><tr align="center"><td width="10"></td>
+
+<td align="center" valign="top"><FORM ACTION="http://www.cartserver.com/sc/cart.cgi" METHOD="get" target="_parent" style="margin-top: 0; margin-bottom: 0;">
+  <INPUT TYPE="HIDDEN" VALUE="a-5102" NAME="item"><b>HOME VIDEO: PURCHASE ONLY</b><br><span class="ar10a">
+
+
+
+
+
+
+DVD&nbsp;$24.95<INPUT TYPE="RADIO" VALUE="a-5102^R^An Ecology of Mind (Home Video Version) - Purchase (DVD)^24.95^1" NAME="item_order"  align="middle"><BR>
+
+
+
+
+
+
+
+</td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tr></table>
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" align="center" td height="40">
+
+
+
+<tr><td colspan="8" height="12"></td></tr>
+
+<tr align="center">
+
+<td width="10"></td>
+
+<td valign="top"><FORM ACTION="http://www.cartserver.com/sc/cart.cgi" METHOD="get" style="margin-top: 0; margin-bottom: 0;"><input type="image" name="add" src="../graphics/butadd.gif" onmouseover=this.src='../graphics/butadd2.gif'; onmouseout=this.src='../graphics/butadd.gif' width="72" height="30" border="0"></FORM></td>
+
+<td width="70"></td>
+
+
+
+<td valign="top"><FORM ACTION="http://www.cartserver.com/sc/cart.cgi" METHOD="get" style="margin-top: 0; margin-bottom: 0;"><INPUT TYPE="HIDDEN" VALUE="a-5102" NAME="item"<FORM ACTION="http://www.cartserver.com/sc/cart.cgi" METHOD="get"><input type="image" name="view" src="../graphics/butview.gif" onmouseover=this.src='../graphics/butview2.gif'; onmouseout=this.src='../graphics/butview.gif' width="72" height="30" border="0"></FORM></td>
+
+
+
+<td width="70"></td>
+
+
+
+<td valign="top"><FORM ACTION="http://www.cartserver.com/sc/cart.cgi" METHOD="get" style="margin-top: 0; margin-bottom: 0;">
+
+<INPUT TYPE="HIDDEN" VALUE="a-5102" NAME="item"<FORM ACTION="http://www.cartserver.com/sc/cart.cgi" METHOD="get"><input type="image" name="checkout" src="../graphics/butcheck.gif" onmouseover=this.src='../graphics/butcheck2.gif'; onmouseout=this.src='../graphics/butcheck.gif' width="72" height="30" border="0"></FORM></td>
+
+
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+
+<!-- END PRICE BOX -->
+
+
+
+
+
+<br>
+
+
+
+<!-- DOCUSEEK2 STREAMING LINK -->
+
+
+
+
+
+<BR><BR>
+
+
+
+<iframe src="https://player.vimeo.com/video/338241466" width="319" height="258" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<!--PULL QUOTE (goes here if no trailerurl) -->
+
+
+
+
+
+</div>
+
+
+
+<!-- dvdnotes -->
+
+<br><img src="../indent.gif" width=15 height=15 border=0><br>
+
+<span class="ar16"><b>DVD Features</b></span><br><span class="ar12">Includes extended interviews with Mary Catherine Bateson, Fritjof Capra, Jerry Brown, Terry Deacon, and Tim Keanini, plus scene selection and SDH captions for the deaf and hard-of-hearing.<br><br></span>
+
+
+
+<!--OTHERURL-->
+
+<span class="ar16"><B>Links</B><br></span><span class="ar12"><A HREF="http://www.anecologyofmind.com/" target="_blank"><b>The film's website</b></A><BR>
+<A HREF="http://www.theecologist.org/how_to_make_a_difference/culture_change/1198372/an_ecology_of_mind_film_interprets_a_life_of_unconventional_thought.html/" target="_blank"><b>The Ecologist's interview with filmmaker</b></A><BR>
+<br><br></span>
+
+
+
+<!--AWARDS-->
+
+<span class="ar16"><B>Awards and Festivals</B><br></span><span class="ar12">2012 Science Books & Films Best List<BR>
+Silver Chris Award, Columbus International Film + Video Festival<BR>
+Audience Award, Best Documentary Feature, Santa Cruz Film Festival<BR>
+Best Documentary, Spokane International Film Festival<BR>
+John Culkin Award for Outstanding Praxis, Media Ecology Association<BR>
+Society for Visual Anthropology Film and Interactive Media Festival<BR>
+Vancouver International Film Festival<BR>
+Bioneers Moving Image Festival<BR>
+Haida Gwaii Film Festival<BR>
+Cinema Pacific Film Festival<BR>
+Sedona International Film Festival<BR>
+Western Psychological Association Film Festival<BR>
+BoomFest<br><br></span>
+
+
+
+
+
+<!--SUBJECTS-->
+
+
+
+
+
+
+
+<!--LINKTITLES-->
+
+<span class="ar16"><B>Related Titles</B><br><img src="../indent.gif" width=15 height=8 border=0><br></span><table cellpadding="0" cellspacing="0" border="0" class="ar11" width="310"><tr><td><span class="title2"><A HREF="../catalog/symhv.html"><b>Symbiotic Earth (Home Video Version)</b></A></span><br>Explores the life and ideas of Lynn Margulis, a scientific rebel who challenged entrenched theories of evolution to present a new narrative: life evolves through collaboration.<BR><BR>
+<span class="title2"><A HREF="../catalog/planhv.html"><b>Planetary (Home Video Version)</b></A></span><br>A provocative and breathtaking wakeup call - a cross continental cinematic journey that explores our cosmic origins and our future as a species.<BR><BR>
+<span class="title2"><A HREF="../catalog/nathv.html"><b>Natural Connections (Home Video Version)</b></A></span><br>Makes a compelling scientific and ethical case for maintaining biodiversity.<BR><BR>
+</span>
+
+
+
+
+
+
+
+
+
+<span class="ar16"><B>... more Reviews</B><br><img src="../indent.gif" width=15 height=8 border=0><br></span><BR>
+"Nora Bateson's imtimate portrait of her father allows us to delight in his delight, to share his infectious love for thinking and being. It is the most enjoyable way I know to get a dose of the systems thinking that our society so sorely needs." <div align="right"><span class="ar11"><b>Dorion Sagen, Author, <i>The Sciences of Avatar: From Anthropology to Xenology</i>, Co-Author, <i>Up From Dragons: The Evolution of Human Intelligence</i></b></span></div><BR>
+"<i>An Ecology of Mind</i> is a spell-binding, lyrical, and very important film about Gregory Bateson and his revolutionary ideas that helped launch the modern ecology movement...In the 1960s and 1970s, Bateson became a mentor to students, seasoned academics, and environmentalists, providing the language and insights that linked ecology to general systems, psychology, sociology, epistemology, and broad theories of science. Along the way, Bateson conceived and illuminated some of the most significant ideas of the era: cybernetics, double-bind, changeability, and the pattern that connects. The film effectively conveys the breadth, depth, rigor, and dynamism of Gregory Bateson's contributions to science and humanity." <div align="right"><span class="ar11"><b>Rex Weyler, Co-founder, Greenpeace International</b></span></div><BR>
+"A loving tribute to a man who shaped the life of the filmmaker and, more than most of us realize, shaped all of our lives. He may not appear in the pantheon of most younger anthropologists, but his work was almost always precocious and indicated how anthropology could actually contribute beyond the narrow confines of the anthropology department...Suitable for college courses in cultural anthropology and history/theory of anthropology, as well as general audiences." <div align="right"><span class="ar11"><b>Jack David Eller, Community College of Denver, Anthropology Review Database</b></span></div><BR>
+"<b>Highly recommended</b>...Encourage[s] viewers to expand our typical perspectives and exercise our brains in a holistic manner...A great mind-opener that would be a valuable resource for a variety of college level course discussions, as well as for the intellectually ambitious general viewer." <div align="right"><span class="ar11"><b>Rue McKenzie, University of South Florida, Educational Media Reviews Online</b></span></div><BR>
+"A concise summary of several opinions on a very much discussed topic. The choice of different perspectives brings a new infusion of concepts and the intermingling of opinions gives the viewer much to think about...Amenable to a wide range of viewers of all ages...A very well done piece of work. Nice job!" <div align="right"><span class="ar11"><b>Sowmya Anjur, Illinois Mathematics and Science Academy, Science Books and Films</b></span></div><BR>
+"Until now, [Bateson's] work has been largely inaccessible to those outside of the academic community. With this film, this is bound to change...Perhaps Nora Bateson's biggest achievement is that she is able to explain abstract and rather inaccessible concepts in a clear way." <div align="right"><span class="ar11"><b>Jan van Boeckel, Resurgence Magazine</b></span></div><BR>
+"An inspiring, meditative film that shows Gregory Bateson range and depth and ultimately gives us a larger glimpse into our place within nature and the cosmos, asking us to consider: What pattern connects art to science, and the cave to the universe, and all of that to us? Bateson-father and daughter-have not only asked a challenging question, they have given us the tools to reimagine our world." <div align="right"><span class="ar11"><b>Wild River Review</b></span></div><BR>
+"[A] keen yet personal portrait of an extraordinary man, <i>An Ecology of Mind</i> also looks to the future, and draws upon Bateson's way of thinking to reveal practical approaches to humanity's tremendous modern-day challenges." <div align="right"><span class="ar11"><b>The Midwest Book Review</b></span></div><BR>
+"Exquisite...The film conveys [Bateson's] complex ideas in such a way as to take us right inside them so that we see them as clearly as pebbles in a crystalline mountain stream. That the film accomplishes this is a testament to the filmmaker's artistry and her grasp of her father's subtle and unique style of thinking...A beautiful and important film." <div align="right"><span class="ar11"><b>Dr. Marilyn Wedge, Huffington Post</b></span></div><BR>
+"What becomes amply clear is that Bateson is needed today more than ever...Bateson's beliefs feel as fresh as they do refreshing...His daughter, now, in a quietly profound way has continued the journey. It's up to the rest of us to complete the process. Watching <i> An Ecology of Mind</i> is a good place to start." <div align="right"><span class="ar11"><b>Dan Webster, Movie 101 on NPR</b></span></div><BR>
+"Many attributes of Gregory Bateson's life and work are conveyed in the film, but most importantly, it has the power to change the way you see...You will find that you are not looking as things at all, you are looking at patterns of relationship--here and there, now and then, fathers and daughters, fathers and sons, teachers and students, animals and humans, humans and the earth, and even two cups sitting on a table." <div align="right"><span class="ar11"><b>Enlightenment Next Magazine<BR><BR>
+
+
+
+</td></tr></table>
+
+
+
+</td></tr></table>
+
+
+
+</td></tr></table>
+
+
+
+<!-- START BOTTOM -->
+
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="924" bgcolor="000000"><tr><td><table cellpadding="0" cellspacing="0" border="0" width="920" bgcolor="eeeeee" align="center" background="../graphics/graduated.jpg">
+
+<tr><td><img src="../graphics/blackstripe.gif" width="920" height="12" border="0" alt=""></td></tr>
+
+<tr><td><div align="center"><span class="ar16"><br><a
+
+ href="mailto:info@bullfrogfilms.com"><i><b>info@bullfrogfilms.com</b></i></span></a><br>
+
+      <br>
+
+
+
+<span class="ar12">
+
+<a href="../index.html">Home</a> |
+
+<a href="../about.html">About Us</a> |
+
+<a href="../subjects.html">Subjects</a> |
+
+<a href="../specialoffers.html">Specials</a> |
+
+<a href="../titles_a.html">Titles A - Z</a> |
+
+<a href="../newreleases.html">New Releases</a> |
+
+<a href="../faq.html">FAQ</a> |
+
+<a href="../orderinfo.html">Order Information</a> |
+
+<a href="../contact.html">Contact</a></span>
+
+
+
+      <table><tr><td><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+
+ codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0"
+
+ ID=greenfrog WIDTH=175 HEIGHT=113>
+
+ <PARAM NAME=movie VALUE="../kitchenfrog.swf">
+
+ <PARAM NAME=quality VALUE=autohigh>
+
+ <param name="wmode" value="transparent">
+
+ <PARAM NAME=bgcolor VALUE=#eeeeee>
+
+<SCRIPT LANGUAGE=JavaScript>
+
+<!--
+
+var ShockMode = 0;
+
+if (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"] && navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) {
+
+	if (navigator.plugins && navigator.plugins["Shockwave Flash"])
+
+		ShockMode = 1;
+
+}
+
+if ( ShockMode ) {
+
+	document.write('<EMBED SRC="../kitchenfrog.swf"');
+
+	document.write(' swLiveConnect=FALSE WIDTH=175 HEIGHT=113');
+
+	document.write(' QUALITY=autohigh BGCOLOR=#eeeeee');
+
+		document.write(' wmode="transparent" ');
+
+	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+
+	document.write('</EMBED>');
+
+} else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
+
+	document.write('<IMG src="../graphics/<img src="../graphics/kitchenbf.gif" width="175" height="113" border="0" alt="">.gif" width="214" height="30" border=0 alt=">');
+
+}
+
+//-->
+
+</SCRIPT><NOEMBED><img src="../graphics/kitchenbf.gif" width="175" height="113" border="0" alt=""></NOEMBED><NOSCRIPT><img src="../graphics/kitchenbf.gif" width="175" height="113" border="0" alt=""></NOSCRIPT></OBJECT></td><td align="center" class="ar11"><br>Website design by <a
+
+ href="http://www.hypersphere.com" target="_blank">HYPERSPHERE</a>.<br>
+
+Pages generated using Film Distribution Software&#8482;<br><br>
+
+
+
+Bullfrog &amp; Bullfrog Films are registered trademarks of Bullfrog
+
+Films, Inc.<br>
+
+All photographs are protected by copyright. For permission to use, <br>
+
+and high resolution press stills, please contact Bullfrog Films.<br>
+
+      <br>
+
+&copy;2009 Bullfrog Films, Inc. All rights reserved.<br><br></div></td><td width="175"></td></tr></table></td></tr>
+
+<tr><td><img src="../graphics/blackstripe.gif" width="920" height="12" border="0" alt=""></td></tr>
+
+</table>
+
+
+
+</td></tr>
+
+
+
+</table>
+
+
+
+</body>
+
+</html>
+

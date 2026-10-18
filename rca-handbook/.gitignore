@@ -1,0 +1,7 @@
+# full-size originals of images and covers; the book uses the resized copies next to them
+assets/img/*.orig.*
+assets/covers/*.orig.*
+__pycache__/
+*.pyc
+# Vimeo player configs carry session tokens and signed URLs; the cleaned *.meta.json is kept instead
+archive/vimeo/*.config.json

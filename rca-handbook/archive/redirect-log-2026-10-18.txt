@@ -1,0 +1,6 @@
+RCA old programme URLs: redirect test, 2026-10-18 03:44:02 UTC
+https://www.rca.ac.uk/study/programme-finder/architecture-ma/ -> 200 https://www.rca.ac.uk/study/programme-finder/architecture-m-arch/
+https://www.rca.ac.uk/study/programme-finder/city-design-ma/ -> 200 https://www.rca.ac.uk/study/programme-finder/environmental-architecture-urban-design-ma/
+https://www.rca.ac.uk/study/programme-finder/environmental-architecture-ma/ -> 200 https://www.rca.ac.uk/study/programme-finder/environmental-architecture-urban-design-ma/
+https://www.rca.ac.uk/study/programme-finder/global-innovation-design-ma-msc/ -> 200 https://www.rca.ac.uk/study/programme-finder/
+https://www.rca.ac.uk/study/programme-finder/digital-direction-ma/ -> 200 https://www.rca.ac.uk/study/programme-finder/digital-narrative-arts-ma-mfa/

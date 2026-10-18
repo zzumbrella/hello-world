@@ -1,0 +1,839 @@
+{
+ "finder-taught": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/?full-time=true&part-time=true&category=programme_types&value=36-taught-masters",
+  "title": "Programme finder (taught)",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__2ef50b3c.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "finder-pre-masters": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/?full-time=true&part-time=true&category=programme_types&value=38-pre-masters",
+  "title": "Programme finder (pre-masters)",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__8fac5268.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "finder-research": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/?full-time=true&part-time=true&category=programme_types&value=37-postgraduate-research",
+  "title": "Programme finder (research)",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__db35c249.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-aardman-rca-animation-mfa-professional-residency": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/aardman-rca-animation-mfa-professional-residency/",
+  "title": "Aardman/RCA Animation (Professional Residency) programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__aardman-rca-animation-mfa-professional-residency.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-animation-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/animation-ma/",
+  "title": "Animation programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__animation-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-architecture-m-arch": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/architecture-m-arch/",
+  "title": "Architecture programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__architecture-m-arch.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-artificial-intelligence-digital-art-ma-mfa": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/artificial-intelligence-digital-art-ma-mfa/",
+  "title": "Artificial Intelligence & Digital Art programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__artificial-intelligence-digital-art-ma-mfa.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-ceramics-glass-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/ceramics-glass-ma/",
+  "title": "Ceramics & Glass programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__ceramics-glass-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-contemporary-art-practice-ma-mfa": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/contemporary-art-practice-ma-mfa/",
+  "title": "Contemporary Art Practice programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__contemporary-art-practice-ma-mfa.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-curating-contemporary-art-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/curating-contemporary-art-ma/",
+  "title": "Curating Contemporary Art programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__curating-contemporary-art-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-design-futures-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/design-futures-ma/",
+  "title": "Design Futures programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__design-futures-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-design-practice-m-arch": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/design-practice-m-arch/",
+  "title": "Design Practice programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__design-practice-m-arch.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-design-products-ma-mdes": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/design-products-ma-mdes/",
+  "title": "Design Products programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__design-products-ma-mdes.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-digital-narrative-arts-ma-mfa": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/digital-narrative-arts-ma-mfa/",
+  "title": "Digital Narrative Arts programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__digital-narrative-arts-ma-mfa.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-environmental-architecture-urban-design-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/environmental-architecture-urban-design-ma/",
+  "title": "Environmental Architecture & Urban Design programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__environmental-architecture-urban-design-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-fashion-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/fashion-ma/",
+  "title": "Fashion programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__fashion-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-information-experience-design-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/information-experience-design-ma/",
+  "title": "Information Experience Design programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__information-experience-design-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-innovation-design-engineering-ma-msc": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/innovation-design-engineering-ma-msc/",
+  "title": "Innovation Design Engineering programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__innovation-design-engineering-ma-msc.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-intelligent-mobility-ma-mdes": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/intelligent-mobility-ma-mdes/",
+  "title": "Intelligent Mobility Design programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__intelligent-mobility-ma-mdes.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-interior-design-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/interior-design-ma/",
+  "title": "Interior Design programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__interior-design-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-jewellery-metal-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/jewellery-metal-ma/",
+  "title": "Jewellery & Metal programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__jewellery-metal-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-mres-rca": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/mres-rca/",
+  "title": "Master of Research RCA programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__mres-rca.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-painting-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/painting-ma/",
+  "title": "Painting programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__painting-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-photography-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/photography-ma/",
+  "title": "Photography programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__photography-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-print-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/print-ma/",
+  "title": "Print programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__print-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-sculpture-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/sculpture-ma/",
+  "title": "Sculpture programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__sculpture-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-service-design-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/service-design-ma/",
+  "title": "Service Design programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__service-design-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-sound-practice-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/sound-practice-ma/",
+  "title": "Sound Practice programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__sound-practice-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-textiles-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/textiles-ma/",
+  "title": "Textiles programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__textiles-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-history-of-design-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/history-of-design-ma/",
+  "title": "V&A/RCA History of Design programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__history-of-design-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-visual-communication-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/visual-communication-ma/",
+  "title": "Visual Communication programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__visual-communication-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-writing-ma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/writing-ma/",
+  "title": "Writing programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__writing-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-architecture-spatial-practice": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/architecture-spatial-practice/",
+  "title": "Architecture & Spatial Practice programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__architecture-spatial-practice.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-art-design-graduate-diploma": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/art-design-graduate-diploma/",
+  "title": "Art & Design programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__art-design-graduate-diploma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-new-school": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/royal-college-of-art-announces-new-school-of-communication-design/",
+  "title": "RCA announces new School of Communication & Design (1 Sep 2026)",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__royal-college-of-art-announces-new-school-of-communication-design.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-new-programmes": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/royal-college-of-art-launches-innovative-new-academic-programmes-for-202728/",
+  "title": "Royal College of Art launches innovative new academic programmes for 2027/28 (16 Sep 2026)",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__royal-college-of-art-launches-innovative-new-academic-programmes-for-202728.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-campus": {
+  "url": "https://www.rca.ac.uk/study/the-rca-experience/our-campus/kensington-transformation/",
+  "title": "Kensington transformation / future programme locations",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__the-rca-experience__our-campus__kensington-transformation.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-undergrad": {
+  "url": "https://www.rca.ac.uk/study/undergraduate-study/",
+  "title": "Undergraduate study",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__undergraduate-study.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-apply": {
+  "url": "https://www.rca.ac.uk/study/apply-to-study/master-application-process/",
+  "title": "Master's application process",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__apply-to-study__master-application-process.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-acrossrca": {
+  "url": "https://www.rca.ac.uk/study/acrossrca/",
+  "title": "AcrossRCA",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__acrossrca.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-luyi-bi": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/life-at-the-rca-finding-your-direction/",
+  "title": "Life at the RCA: finding your own direction (Luyi Bi, 28 Jul 2026)",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__life-at-the-rca-finding-your-direction.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-melting-myth": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/sun-aijia-ma-information-experience-design-wins-the-lumen-prize-hua-award-for-melting-myth/",
+  "title": "Sun Aijia (MA Information Experience Design) wins the Lumen Prize HUA Award for Melting Myth (21 Oct 2022)",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__sun-aijia-ma-information-experience-design-wins-the-lumen-prize-hua-award-for-melting-myth.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-nc2024": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/5-rca-artists-join-bloomberg-new-contemporaries-2024/",
+  "title": "5 RCA artists join Bloomberg New Contemporaries 2024",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__5-rca-artists-join-bloomberg-new-contemporaries-2024.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-coupe-appointed": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/royal-college-of-art-appoints-james-coupe-as-head-of-programme-for-photography/",
+  "title": "Royal College of Art appoints James Coupe as Head of Programme for Photography",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__royal-college-of-art-appoints-james-coupe-as-head-of-programme-for-photography.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-barrios-appointed": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/dr-danielle-barrios-oneill-appointed-head-of-programme-for-ma-information-experience-design/",
+  "title": "Dr Danielle Barrios-O'Neill appointed Head of Programme for MA Information Experience Design",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__dr-danielle-barrios-oneill-appointed-head-of-programme-for-ma-information-experience-design.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-turner2019": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/turner-prize-2019-rca-staff-and-alumni-create-bold-commentary-on-turbulent-times/",
+  "title": "Turner Prize 2019 – RCA staff and alumni create bold commentary on turbulent times",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__turner-prize-2019-rca-staff-and-alumni-create-bold-commentary-on-turbulent-times.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "rca-millar-writing": {
+  "url": "https://www.rca.ac.uk/news-and-events/news/head-of-programme-jeremy-millar-on-ma-writing-at-the-rca/",
+  "title": "Head of Programme Jeremy Millar on MA Writing at the RCA",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/news-and-events__news__head-of-programme-jeremy-millar-on-ma-writing-at-the-rca.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "staff-angus-main": {
+  "url": "https://www.rca.ac.uk/more/staff/angus-main1/",
+  "title": "Angus Main – staff profile",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/more__staff__angus-main1.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "staff-james-coupe": {
+  "url": "https://www.rca.ac.uk/more/staff/james-coupe/",
+  "title": "Professor James Coupe – staff profile",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/more__staff__james-coupe.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "show26-ied": {
+  "url": "https://2026.rca.ac.uk/school/information-experience-design-ma/",
+  "title": "Information Experience Design (MA) – Student Profiles 2026",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/2026.rca.ac.uk/school__information-experience-design-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "show26-luyi-bi": {
+  "url": "https://2026.rca.ac.uk/school-of-communication/information-experience-design-ma/profile/luyi-bi/",
+  "title": "Luyi Bi – Student Profiles 2026",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/2026.rca.ac.uk/school-of-communication__information-experience-design-ma__profile__luyi-bi.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "show26-yiran-liu": {
+  "url": "https://2026.rca.ac.uk/school-of-communication/information-experience-design-ma/profile/yiran-liu/",
+  "title": "Yiran Liu – Student Profiles 2026",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/2026.rca.ac.uk/school-of-communication__information-experience-design-ma__profile__yiran-liu.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "show26-tingxuan-xu": {
+  "url": "https://2026.rca.ac.uk/school-of-communication/information-experience-design-ma/profile/tingxuan-xu/",
+  "title": "Tingxuan Xu – Student Profiles 2026",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/2026.rca.ac.uk/school-of-communication__information-experience-design-ma__profile__tingxuan-xu.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "show26-yuening-du": {
+  "url": "https://2026.rca.ac.uk/school-of-communication/information-experience-design-ma/profile/yuening-du/",
+  "title": "Yuening Du – Student Profiles 2026",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/2026.rca.ac.uk/school-of-communication__information-experience-design-ma__profile__yuening-du.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "show26-photo": {
+  "url": "https://2026.rca.ac.uk/school/photography-ma/",
+  "title": "Photography (MA) – Student Profiles 2026",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/2026.rca.ac.uk/school__photography-ma.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "show24-yang-zou": {
+  "url": "https://2024.rca.ac.uk/school-of-arts-humanities/photography-ma/profile/yang-zou/",
+  "title": "Yang Zou – Student Profiles 2024",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/2024.rca.ac.uk/school-of-arts-humanities__photography-ma__profile__yang-zou.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "nc-yang-zou": {
+  "url": "https://www.newcontemporaries.org.uk/artists/yang-zou",
+  "title": "Yang Zou",
+  "publisher": "New Contemporaries",
+  "kind": "web",
+  "archive": "archive/www.newcontemporaries.org.uk/artists__yang-zou.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "ibi-warm-data": {
+  "url": "https://batesoninstitute.org/warm-data",
+  "title": "Warm Data",
+  "publisher": "International Bateson Institute",
+  "kind": "web",
+  "archive": "archive/batesoninstitute.org/warm-data.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "dunne-raby-bio": {
+  "url": "https://dunneandraby.co.uk/content/biography",
+  "title": "Biography",
+  "publisher": "Dunne & Raby",
+  "kind": "web",
+  "archive": "archive/dunneandraby.co.uk/content__biography.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "lumen-hua-2022": {
+  "url": "https://www.lumenprize.com/2022-winners/hua-award-winner",
+  "title": "HUA Award Winner 2022",
+  "publisher": "The Lumen Prize",
+  "kind": "web",
+  "archive": "archive/www.lumenprize.com/2022-winners__hua-award-winner.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "steyerl-poor-image": {
+  "url": "https://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image/",
+  "title": "Hito Steyerl, In Defense of the Poor Image, e-flux journal #10 (2009)",
+  "publisher": "e-flux",
+  "kind": "web",
+  "archive": "archive/www.e-flux.com/journal__10__61362__in-defense-of-the-poor-image.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "frayling-1993": {
+  "url": "https://arl.human.cornell.edu/879Readings/Frayling_Research%20through%20Design.pdf",
+  "title": "Christopher Frayling, Research in Art and Design, Royal College of Art Research Papers 1(1), 1993",
+  "publisher": "Royal College of Art (copy hosted by Cornell)",
+  "kind": "pdf",
+  "archive": "archive/arl.human.cornell.edu/879Readings__Frayling_Research%20through%20Design.pdf.pdf",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "spec-ied": {
+  "url": "https://rca-media2.rca.ac.uk/documents/2026-27-rca-ma-information-experience-design-programme-specification.pdf",
+  "title": "MA Information Experience Design programme specification 2026-27",
+  "publisher": "Royal College of Art",
+  "kind": "pdf",
+  "archive": "archive/rca-media2.rca.ac.uk/documents__2026-27-rca-ma-information-experience-design-programme-specification.pdf.pdf",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "spec-photo": {
+  "url": "https://rca-media2.rca.ac.uk/documents/2026-27-rca-ma-photography-programme-specification.pdf",
+  "title": "MA Photography programme specification 2026-27",
+  "publisher": "Royal College of Art",
+  "kind": "pdf",
+  "archive": "archive/rca-media2.rca.ac.uk/documents__2026-27-rca-ma-photography-programme-specification.pdf.pdf",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "vid-ied-openday": {
+  "url": "https://vimeo.com/1233793549",
+  "title": "Information Experience Design MA – Online Open Day (Angus Main)",
+  "publisher": "Royal College of Art (Vimeo)",
+  "kind": "video",
+  "archive": "archive/vimeo/1233793549.vtt",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "vid-photo-openday": {
+  "url": "https://vimeo.com/1233688527",
+  "title": "Photography MA – Online Open Day (James Coupe)",
+  "publisher": "Royal College of Art (Vimeo)",
+  "kind": "video",
+  "archive": "archive/vimeo/1233688527.vtt",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "vid-yang-zou": {
+  "url": "https://youtu.be/ZboIIDF9PLY",
+  "title": "Yang Zou, I love you, life. I hope it's great again (2024), full film",
+  "publisher": "YouTube (linked from RCA 2024 profile)",
+  "kind": "video",
+  "archive": null,
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "vid-rca-portfolio": {
+  "url": "https://vimeo.com/showcase/10767574?video=1144943551",
+  "title": "Portfolio advice from the programme team",
+  "publisher": "Royal College of Art (Vimeo, linked from programme pages)",
+  "kind": "video",
+  "archive": null,
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "bbc-ways-of-seeing": {
+  "url": "https://www.bbc.co.uk/programmes/b00drsjf",
+  "title": "Ways of Seeing, Episode 1 (1972)",
+  "publisher": "BBC Two",
+  "kind": "web",
+  "archive": "archive/www.bbc.co.uk/programmes__b00drsjf.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "film-ecology-of-mind": {
+  "url": "https://bullfrogfilms.com/catalog/eminhv.html",
+  "title": "An Ecology of Mind (2010), dir. Nora Bateson",
+  "publisher": "Bullfrog Films",
+  "kind": "web",
+  "archive": "archive/bullfrogfilms.com/catalog__eminhv.html.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "dear-data": {
+  "url": "https://www.dear-data.com/theproject",
+  "title": "Dear Data – The Project",
+  "publisher": "Giorgia Lupi & Stefanie Posavec",
+  "kind": "web",
+  "archive": "archive/www.dear-data.com/theproject.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "ridler-mosaic": {
+  "url": "https://annaridler.com/works/mosaic-2019",
+  "title": "Anna Ridler, Mosaic Virus",
+  "publisher": "annaridler.com",
+  "kind": "web",
+  "archive": "archive/annaridler.com/works__mosaic-2019.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "haraway-1988": {
+  "url": "https://www.jstor.org/stable/3178066",
+  "title": "Donna Haraway, Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective, Feminist Studies 14(3), 1988",
+  "publisher": "JSTOR",
+  "kind": "web",
+  "archive": "archive/www.jstor.org/stable__3178066.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "krauss-1979": {
+  "url": "https://www.jstor.org/stable/778224",
+  "title": "Rosalind Krauss, Sculpture in the Expanded Field, October 8, 1979",
+  "publisher": "JSTOR",
+  "kind": "web",
+  "archive": "archive/www.jstor.org/stable__778224.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "cascone-2000": {
+  "url": "https://doi.org/10.1162/014892600559489",
+  "title": "Kim Cascone, The Aesthetics of Failure: 'Post-Digital' Tendencies in Contemporary Computer Music, Computer Music Journal 24(4), 2000",
+  "publisher": "MIT Press",
+  "kind": "paper",
+  "archive": null,
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-ways-of-seeing": {
+  "url": "https://book.douban.com/subject/26427579/",
+  "title": "观看之道",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__26427579.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-speculative-everything": {
+  "url": "https://book.douban.com/subject/28522614/",
+  "title": "思辨一切",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__28522614.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-thinking-in-systems": {
+  "url": "https://book.douban.com/subject/11528220/",
+  "title": "系统之美",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__11528220.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-mushroom": {
+  "url": "https://book.douban.com/subject/35059450/",
+  "title": "末日松茸",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__35059450.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-simians": {
+  "url": "https://book.douban.com/subject/26874448/",
+  "title": "类人猿、赛博格和女人",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__26874448.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-creativity": {
+  "url": "https://book.douban.com/subject/26285299/",
+  "title": "创造力",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__26285299.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-on-photography": {
+  "url": "https://book.douban.com/subject/4282084/",
+  "title": "论摄影",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__4282084.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-spell-sensuous": {
+  "url": "https://en.wikipedia.org/wiki/David_Abram",
+  "title": "David Abram, The Spell of the Sensuous: Perception and Language in a More-than-Human World (1996)",
+  "publisher": "Wikipedia",
+  "kind": "web",
+  "archive": "archive/en.wikipedia.org/wiki__David_Abram.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-black-skin": {
+  "url": "https://en.wikipedia.org/wiki/Black_Skin,_White_Masks",
+  "title": "Frantz Fanon, Black Skin, White Masks",
+  "publisher": "Wikipedia",
+  "kind": "web",
+  "archive": "archive/en.wikipedia.org/wiki__Black_Skin,_White_Masks.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-technology-china": {
+  "url": "https://book.douban.com/subject/34954806/",
+  "title": "论中国的技术问题",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__34954806.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-art-practice-research": {
+  "url": "https://book.douban.com/subject/2713217/",
+  "title": "Graeme Sullivan, Art Practice as Research",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__2713217.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-camera-lucida": {
+  "url": "https://book.douban.com/subject/6068109/",
+  "title": "明室",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__6068109.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "deep-listening": {
+  "url": "https://www.deeplistening.rpi.edu/deep-listening/",
+  "title": "Deep Listening",
+  "publisher": "Center for Deep Listening, Rensselaer Polytechnic Institute",
+  "kind": "web",
+  "archive": "archive/www.deeplistening.rpi.edu/deep-listening.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "wiki-deep-time": {
+  "url": "https://en.wikipedia.org/wiki/Deep_time",
+  "title": "Deep time",
+  "publisher": "Wikipedia",
+  "kind": "web",
+  "archive": "archive/en.wikipedia.org/wiki__Deep_time.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "book-good-ancestor": {
+  "url": "https://book.douban.com/subject/35364932/",
+  "title": "Roman Krznaric, The Good Ancestor",
+  "publisher": "豆瓣读书",
+  "kind": "web",
+  "archive": "archive/book.douban.com/subject__35364932.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-communication-mfa": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/communication-mfa/",
+  "title": "Communication MFA programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__communication-mfa.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "prog-arts-humanities-mfa": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/arts-humanities-mfa/",
+  "title": "Arts & Humanities MFA programme page",
+  "publisher": "Royal College of Art",
+  "kind": "web",
+  "archive": "archive/www.rca.ac.uk/study__programme-finder__arts-humanities-mfa.html",
+  "accessed": "2026-10-18",
+  "note": ""
+ },
+ "redirect-log": {
+  "url": "https://www.rca.ac.uk/study/programme-finder/",
+  "title": "RCA 旧专业网址跳转测试记录（本书编写组 2026-10-18 实测）",
+  "publisher": "本书编写组",
+  "kind": "web",
+  "archive": "archive/redirect-log-2026-10-18.txt",
+  "accessed": "2026-10-18",
+  "note": ""
+ }
+}
