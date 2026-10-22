@@ -74,8 +74,10 @@ td.en, th.en { font-family: "Noto Serif", "Noto Serif SC"; font-size: 7.6pt; col
 
 /* ---------- figures ---------- */
 figure.fig { margin: 3mm 0 4.5mm; page-break-inside: avoid; }
-figure.fig img { display: block; width: auto; max-width: 100%; max-height: 82mm; margin: 0 auto 0 0; }
+figure.fig img { display: inline-block; vertical-align: top; width: auto; max-width: 100%; max-height: 82mm; }  /* inline, not block: a block image beside a side note can be pushed below it by a rounding error */
 figure.fig.tall img { max-height: 105mm; }
+figure.fig.mid img { max-height: 62mm; }
+figure.fig.small img { max-height: 46mm; }
 figure.fig.half { width: 48.5%; display: inline-block; vertical-align: top; margin-right: 2%; }
 figcaption { font: 7.4pt/1.5 "Noto Sans", "Noto Sans SC"; color: #444; margin-top: 1.4mm; }
 figcaption .credit { display: block; color: var(--muted); font-size: 6.6pt; margin-top: .6mm; }

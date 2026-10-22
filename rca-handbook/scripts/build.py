@@ -26,19 +26,23 @@ COVERS = json.loads((DATA / "covers.json").read_text())
 
 TAGS = {"官网": "t-off", "解读": "t-int", "经验": "t-exp", "延伸": "t-ext"}
 
+# Chapters also written as their own PDF (page numbers stay those of the full book): section id -> file name
+EXTRACTS = {"cap": "读懂皇艺-当代艺术实践样章.pdf"}
+
 # Every chapter of the full book, in order. Entries without a file are listed in the TOC as "正式版收录".
 MANIFEST = [
     ("front", "00-cover.html"), ("front", "01-howto.html"), ("toc", None), ("front", "02-preface.html"),
     ("part", "第一部分　零基础先补四课"),
     ("chapter", "10-lesson1.html"), ("chapter", "11-lesson2.html"), ("chapter", "12-lesson3.html"), ("chapter", "13-lesson4.html"),
     ("part", "第二部分　29 个专业逐个讲",
-     "样书收录三个学院总览，以及两章样章：摄影（<a class=\"pref\" href=\"#photography\"></a>）和信息体验设计（<a class=\"pref\" href=\"#ied\"></a>）。"
-     "其余 27 个专业已列在目录里，正式版收录。"),
+     "样书收录三个学院总览，以及三章样章：当代艺术实践（<a class=\"pref\" href=\"#cap\"></a>）、"
+     "摄影（<a class=\"pref\" href=\"#photography\"></a>）和信息体验设计（<a class=\"pref\" href=\"#ied\"></a>）。"
+     "其余 26 个专业已列在目录里，正式版收录。"),
     ("chapter", "20-school-architecture.html"),
     ("planned", "建筑学 Architecture MArch"), ("planned", "室内设计 Interior Design MA"),
     ("planned", "环境建筑与城市设计 Environmental Architecture & Urban Design MA"), ("planned", "设计实践 Design Practice MArch"),
     ("chapter", "30-school-arts-humanities.html"),
-    ("planned", "当代艺术实践 Contemporary Art Practice MA/MFA"), ("planned", "绘画 Painting MA"),
+    ("chapter", "32-contemporary-art-practice.html"), ("planned", "绘画 Painting MA"),
     ("chapter", "31-photography.html"),
     ("planned", "版画 Print MA"), ("planned", "雕塑 Sculpture MA"), ("planned", "陶瓷与玻璃 Ceramics & Glass MA"),
     ("planned", "珠宝与金属 Jewellery & Metal MA"), ("planned", "当代艺术策展 Curating Contemporary Art MA"),
@@ -55,7 +59,8 @@ MANIFEST = [
     ("part", "第三部分　申请实操",
      "正式版收录：作品集、个人陈述、2 分钟视频；时间线、学费与奖学金。<br>"
      "样书里，申请要求先放在第 1 课「录取看什么、要交什么」（<a class=\"pref\" href=\"#lesson1-admission\"></a>），"
-     "准备建议放在两章样章的「零基础怎么准备」（<a class=\"pref\" href=\"#photo-prepare\"></a>、<a class=\"pref\" href=\"#ied-prepare\"></a>）。"),
+     "准备建议放在三章样章的「零基础怎么准备」（<a class=\"pref\" href=\"#cap-prepare\"></a>、"
+     "<a class=\"pref\" href=\"#photo-prepare\"></a>、<a class=\"pref\" href=\"#ied-prepare\"></a>）。"),
     ("planned", "作品集、个人陈述、2 分钟视频"), ("planned", "时间线、学费与奖学金"),
     ("part", "附录",
      "样书收录来源总表（<a class=\"pref\" href=\"#sources\"></a>）。正式版另有：两个研究生文凭与研究型学位、术语中英索引、人名索引。"),
@@ -73,13 +78,13 @@ def qr_png(url, name):
     return path.relative_to(ROOT).as_posix()
 
 
-def source_for_url(url):
+def source_for_url(url, accessed="2026-10-18"):
     for sid, s in SOURCES.items():
         if s["url"].rstrip("/") == url.rstrip("/"):
             return sid
     sid = "img-" + re.sub(r"[^a-z0-9]+", "-", url.lower())[-60:]
     SOURCES[sid] = {"url": url, "title": "图片来源页面", "publisher": "Royal College of Art", "kind": "web",
-                    "archive": None, "accessed": "2026-10-18", "note": ""}
+                    "archive": None, "accessed": accessed, "note": ""}
     return sid
 
 
@@ -112,11 +117,14 @@ class Chapter:
 
     def fig(self, m):
         key, _, caption = m.group(1).partition("|")
+        size = ""
+        if caption.endswith(("|mid", "|small")):  # optional size: [[fig:key|caption|mid]]
+            caption, _, size = caption.rpartition("|")
         meta = IMAGES[key]
-        sid = source_for_url(meta["page"])
+        sid = source_for_url(meta["page"], meta.get("accessed", "2026-10-18"))
         n = self.num(sid)
         w, h = meta["size"]
-        cls = "fig tall" if h > w * 1.2 else "fig"
+        cls = ("fig tall" if h > w * 1.2 else "fig") + (f" {size}" if size else "")
         return (f'<figure class="{cls}"><img src="assets/img/{key}.jpg" alt="{html.escape(meta["alt"])}">'
                 f'<figcaption>{caption}<span class="credit">© 原作者 / Royal College of Art · 图片来自 RCA 官网'
                 f'<sup class="cite"><a href="#src-{self.cid}-{n}">{n}</a></sup></span></figcaption></figure>')
@@ -342,6 +350,14 @@ def main():
     (OUT / "book.html").write_text(page)
     document.write_pdf(OUT / "读懂皇艺-样书.pdf")
     print(f"PDF written: {OUT / '读懂皇艺-样书.pdf'} ({len(document.pages)} pages)")
+    starts = set(re.findall(r'<section class="(?:chapter|part-page|front|toc)[^"]*" id="([^"]+)"', page))
+    anchors = [set(pg.anchors) for pg in document.pages]
+    for sid, name in EXTRACTS.items():
+        first = next(i for i, a in enumerate(anchors) if sid in a)
+        # every page of a section carries its anchor, so look for the next *other* section
+        end = next((i for i in range(first + 1, len(anchors)) if anchors[i] & (starts - {sid})), len(anchors))
+        document.copy(document.pages[first:end]).write_pdf(OUT / name)
+        print(f"chapter PDF written: {OUT / name} (pages {first + 1}-{end})")
     bad = cff_fonts(OUT / "读懂皇艺-样书.pdf")
     if bad:
         print("warning: fonts embedded as CFF, Chinese will be missing in MuPDF-based viewers; run scripts/setup_fonts.sh:", bad)
